@@ -112,7 +112,7 @@ public class pregled extends AppCompatActivity {
     protected void onResume(){
         super.onResume();
        // SetListView();
-        app.sortPodatke();
+      //  app.sortPodatke();
         mAdapter = new AdapterPoti(app.getAll(), this);
         int i=0;
         mAdapter.notifyDataSetChanged();
